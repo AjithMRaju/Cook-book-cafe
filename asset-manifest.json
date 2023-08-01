@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/https//AjithMRaju.github.io/Cook-book-cafe/static/css/main.9def21c8.css",
+    "main.js": "/https//AjithMRaju.github.io/Cook-book-cafe/static/js/main.103228d7.js",
+    "static/media/1690696909197.jpg": "/https//AjithMRaju.github.io/Cook-book-cafe/static/media/1690696909197.c1ffc5207888f6f3ff30.jpg",
+    "static/media/testimationalImage.png": "/https//AjithMRaju.github.io/Cook-book-cafe/static/media/testimationalImage.9101206aa9ebcc4a2401.png",
+    "static/media/1690646179648.jpg": "/https//AjithMRaju.github.io/Cook-book-cafe/static/media/1690646179648.3a31b33aadae893572f8.jpg",
+    "static/media/Login-icon.jpg": "/https//AjithMRaju.github.io/Cook-book-cafe/static/media/Login-icon.0ed9a2a20e2d97c264ff.jpg",
+    "static/media/slick.svg": "/https//AjithMRaju.github.io/Cook-book-cafe/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/https//AjithMRaju.github.io/Cook-book-cafe/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/https//AjithMRaju.github.io/Cook-book-cafe/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/https//AjithMRaju.github.io/Cook-book-cafe/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/https//AjithMRaju.github.io/Cook-book-cafe/index.html",
+    "main.9def21c8.css.map": "/https//AjithMRaju.github.io/Cook-book-cafe/static/css/main.9def21c8.css.map",
+    "main.103228d7.js.map": "/https//AjithMRaju.github.io/Cook-book-cafe/static/js/main.103228d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9def21c8.css",
+    "static/js/main.103228d7.js"
+  ]
+}
