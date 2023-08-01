@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+    --222: #222;
+    --fff: #fff;
+    --transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+a.nav-link {
+    font-weight: 600;
+    font-size: smaller;
+    width: max-content;
+    padding: 5px;
+}
+
+a.nav-link:nth-child(3) {
+    position: relative;
+    width: 90px;
+}
+
+.indicator {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    color: red;
+    bottom: 27%;
+    right: 14%;
+}
+
+/* brand text styling */
+
+a.navbar-brand {
+    font-weight: 700;
+    font-size: 1.9rem;
+    color: orange;
+}
+
+a.navbar-brand img {
+    width: 39px;
+    height: 39px;
+    object-fit: cover;
+}
+
+
+.customColor {
+
+    background: #f3f3f5;
+
+
+}
+
+
+
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--fff);
+    background: linear-gradient(145deg, #ececec, #ffffff) !important;
+    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #ffffff !important;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-color: #111;
+    --bs-nav-link-hover-color: none;
+    --bs-nav-link-disabled-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.activeClass {
+    background: linear-gradient(145deg, #ececec, #ffffff);
+    box-shadow: 20px 20px 45px #e6e6e6, -20px -20px 45px #ffffff;
+    border-radius: 5px;
+    padding: 0 10px;
+    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+    color: orange !important;
+}
+
+.initialClass {
+    background: #f3f3f5;
+    box-shadow: 9px 9px 12px #b2b2b3, -9px -9px 12px #ffffff;
+    color: #b3b3b3;
+    text-transform: capitalize;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 6px 30px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+    font-size: smaller;
+    color: #111;
+    padding: 5px;
+    
+}
+
+.activeClass:focus {
+    border-color: #0d0d25;
+    box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
+}
+
+.nav-icons {
+    color: #ff8243;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 6px 6px 7px #dadada, inset -6px -6px 7px #ffffff;
+}
+
+.nav-icons svg {
+    font-size: 24px;
+}

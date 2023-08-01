@@ -1,0 +1,45 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.cards {
+    min-width: 125px;
+    min-height: 125px;
+    background: linear-gradient(145deg, #ececec,#ffffff);
+    box-shadow: 28px 28px 45px #e6e6e6,-28px -28px 45px #ffffff;
+    border-radius: 50px 10px 10px 10px;
+    position: relative;
+    transition: all .3s ease-in-out;
+}
+
+.cards:hover {
+    background: #f0f2f5;
+    
+}
+
+.cards-img {
+    width: 70px;
+    position: relative;
+    top: -5px;
+    left: -5px;
+}
+
+.cards h4 {
+    
+    color: orange;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.cards h5 {
+    padding: 0 10px;
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 600;
+    overflow: hidden;
+    white-space: none;
+    text-overflow: ellipsis;
+}

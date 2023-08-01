@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ffb902: #ffb902;
+    --fff:#fff;
+    --222:#222;
+  }
+
+
+
+  header{
+    background: #fff;
+  }
+
+
+/* banner h1 */
+
+.banner-h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-weight: 900;
+    color: black;
+}
+
+
+
+
+/* banner-p */
+.banner-p {
+    font-weight: 500 !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    color: var(--222);
+}
+
+.banner-p span{
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+} 
+
+
+
+.banner-img{
+    position: relative;
+}
+
+/* NEWSTYINGS... */
+.bannerImage {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    /* background-size: cover; */
+    /* background-position: center; */
+    animation: biani 4.5s linear infinite alternate;
+    /* box-shadow: 0 0 20px rgba(36, 39, 37, 0.3); */
+}
+
+/* @keyframes biani {
+    0% {
+        border-radius: 48% 52% 57% 43% / 34% 44% 56% 66%;
+    }
+
+    25% {
+        border-radius: 62% 38% 64% 36% / 33% 55% 45% 66%;
+    }
+
+    50% {
+        border-radius: 43% 57% 51% 49% / 33% 42% 58% 67%;
+    }
+
+    100% {
+        border-radius: 40% 60% 43% 57% / 52% 32% 68% 48%;
+    }
+} */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.bannerSpan {
+    color: orange;
+}
+
+.signup-btn {
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background: #ff735c;
+    /* background: var(--ffb902); */
+    color: var(--fff);
+    width: 100px;
+}
+
+.signup-btn:hover{
+    outline: none;
+    background: none;
+    border: 2px solid var(--ffb902);
+    padding: 5px 10px;
+    border-radius: 30px;
+    width: 100px;
+    color: #000;
+}
+
+
+
+
+button.loginbtn {
+    outline: none;
+    background: none;
+    /* border: 2px solid var(--ffb902); */
+    border: 2px solid #ff735c;
+    padding: 5px 10px;
+    border-radius: 30px;
+    width: 100px;
+}
+
+
+button.loginbtn:hover{
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background: var(--ffb902);
+    color: var(--fff);
+    width: 100px; 
+}
+
+
+
+
+

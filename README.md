@@ -68,3 +68,53 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+[x] Rearrainge logmore button functinality.. 
+
+[x] slick carousel initial state displayin n brakepoints.. 
+
+[x] create a dish added indicator in navbr collection section... 
+
+[x] create a dish added indicator fucntion when the user click collection tab..
+
+[x] create a dish indicator remove function..
+
+[-] create a navigation link to the collection on the toastify notification on the dish added time..{not needded};
+
+[x] create a confirm password filed in login modal and add its functionalities.. almost finshed...
+
+[x] create a new save button in infocard..
+
+[x] change signout section ui..
+
+[x] change dish add icon in collection tab..
+
+[x] recreate login modal implement minimal dising...
+
+[x] create a hide box function in menu copmonent and icon....
+
+[x] create sighnout look minimalist..
+
+[ ] depoloy project ..
+
+[ ] create githup pages ..
+
+
+const userCountry = 'Canada';
+  const mockCountryList = [
+    { name: 'United States' },
+    { name: 'Canada' },
+    { name: 'Australia' },
+    { name: 'India' },
+    // ... Add more countries as needed
+  ];
+
+  const sortedCountryList = [userCountry, ...mockCountryList.filter(country => country.name !== userCountry)];
+  console.log(sortedCountryList);
+
+  implement this function in category display..
+
+
+  background image link=https://github.com/techiecoder2079/food-website/blob/main/assets/images/faq-bg.png?raw=true

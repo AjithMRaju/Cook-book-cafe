@@ -1,0 +1,115 @@
+
+:root{
+  --fff:#fff;
+}
+
+
+.grid-item {
+  text-align: center;
+  max-width: 200px;
+  width: 100%;
+  height: 139px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+
+
+/* common image classs */
+.main-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+/* conditional rendering class... */
+
+/* .card-active {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
+} */
+
+
+
+.overlay {
+  position: absolute;
+  color:var(--fff);
+  bottom: 15px;
+  left: 0;
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 176px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  margin-left: 5px;
+}
+
+a{
+  text-decoration: none!important;
+}
+a p{
+  color: var(--fff);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+
+.gradiant{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.6));
+}
+
+
+/* card icons styling.... */
+
+.span-hover-icons {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  color: var(--fff);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  width: 100%;
+  height: 100%;
+}
+
+.span-hover-icons:hover
+{
+  opacity: 1;
+}
+
+.span-hover-icons svg{
+  font-size: 24px;
+}
+
+.favorite
+{
+ color: red;
+}
+
+.moving-text
+{
+  animation: moving 8s linear infinite;
+}
+
+
+
+/* animations.. */
+
+@keyframes moving {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}

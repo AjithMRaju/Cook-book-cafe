@@ -1,0 +1,146 @@
+:root {
+    --edeff1: #edeff1;
+    --cacfd8: #cacfd8;
+    --bg: #f5f5f5;
+}
+
+
+
+.b3b3b3{
+    color: orange;
+}
+
+
+.search-btn {
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 0 30px 30px 0;
+    box-shadow: -5px -5px 8px var(--edeff1),
+        5px 5px 10px var(--cacfd8);
+    text-align: center;
+    color: orange;
+    font-size: 23px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.search-btn:hover {
+    box-shadow: -10px -10px 15px var(--edeff1),
+        10px 10px 15px var(--cacfd8);
+    transform: scale(1.1);
+}
+
+
+.search-btn svg{
+    font-size: 24px;
+}
+
+Form input {
+    min-width: 300px;
+    width: 100%;
+    height: 60px;
+    background: none;
+    border-radius: 30px 0 0 30px;
+    outline: none;
+    border: none;
+    font-size: 19px;
+    padding-left: 25px;
+    color: grey;
+    box-shadow: -10px -10px 15px var(--edeff1),
+        10px 10px 15px var(--cacfd8);
+    transition: .5s;
+    text-align: center;
+}
+
+Form input:focus {
+    box-shadow: -15px -15px 40px var(--edeff1),
+        15px 15px 40px var(--cacfd8);
+}
+
+.leafImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* search button.. */
+.banner-button {
+    outline: none;
+    border: none;
+    padding: 0 10px;
+    background-color: #52db87;
+    /* background-color: orange; */
+    border-radius: 60px 0 0 60px;
+    color: black;
+}
+
+.banner-title-h1,
+.banner-title-span {
+    font-family: 'Times New Roman', Times, serif;
+    color: #b3b3b3;
+}
+
+
+
+
+
+.searchResultDishes {
+    height: 100%;
+    /* background-color: #130b09; */
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+
+/* alert message */
+.itemsNotFoundAlert {
+    padding: 10px;
+    border: 1px solid red;
+    position: relative;
+}
+
+.itemsNotFoundAlert h1 {
+    margin-bottom: 0;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.itemsNotFoundAlert p {
+    margin-bottom: 0;
+    color: #222;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* CLOS ICON STYLES */
+/* .closeinfobox {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 22px;
+} */

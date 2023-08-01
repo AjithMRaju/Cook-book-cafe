@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.testimation-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.testimation-box{
+    background: linear-gradient(145deg, #ececec ,#ffffff);
+    box-shadow: 20px 20px 45px #e6e6e6 ,-20px -20px 45px #ffffff;
+    border-radius: 30px;
+    padding: 20px;
+    transition: 0.8s cubic-bezier(0.22, 0.78,0.45,1.02);
+}
+
+
+.testimation-box h3{
+    border-bottom: 1px solid rgb(204 204 204 / 40%);
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+
+
+
+.testimation-box p{
+    color: #767676;
+    /* transition: height 0.3s ease-out; */
+    
+}
+
+.testimation-box p span{
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
+.testimation-box:hover{
+    transform: scale(1.1);
+}
